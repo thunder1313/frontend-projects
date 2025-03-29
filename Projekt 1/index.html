@@ -6,87 +6,203 @@
   <title>Daher</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
 </head>
 <body>
-  <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-      <img src="images/daher-logo.png" width="150" height="40" class="d-inline-block align-top" alt="" loading="lazy">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Firma</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Aktualności</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Zakres Usług</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Realizacje</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Flota</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Kontakt</a>
-        </li>
-      </ul>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="images/daher-logo.png" width="150" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">Firma</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">Aktualności</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">Zakres Usług</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">Realizacje</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">Flota</a>
+          </li>
+          <li class="nav-item text-uppercase">
+            <a class="nav-link" href="#">Kontakt</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
   <!-- Grid Rows -->
-  <div class="container mt-5">
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-md-1">Tile 1</div>
-      <div class="col-md-5">Tile 2</div>
-      <div class="col-md-5">Tile 3</div>
-      <div class="col-md-1">Tile 4</div>
+      <div class="col-md-2 grid-cell background-image" style="background-image: url('images/daher_building.jpeg');"></div>
+      <div class="col-md-8 grid-cell background-image" style="background-image: url('images/daher_plane.jpg');">
+        <div class="split-text-container text-background">
+          <div class="left-overlay-square" style="background-color: rgba(0, 0, 0, 0.6);"></div>
+          <div class="headline bottom-line text-uppercase">Specjaliści od dużych gabarytów i ciężarów</div>
+          <div class="subheadline text-uppercase mb-2">
+            <strong>Kompleksowe rozwiązania</strong><br>
+            z użyciem transportu szynowego, drogowego i wodnego
+          </div>
+          <div class="subheadline text-uppercase">
+            <strong>Kompletna organizacja</strong><br>
+            łańcucha logistycznego, w kraju i za granicą
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 grid-cell background-image" style="background-image: url('images/daher_building2.jpg');"></div>
     </div>
     <div class="row">
-      <div class="col-md-1">Tile 1</div>
-      <div class="col-md-5">Tile 2</div>
-      <div class="col-md-5">Tile 3</div>
-      <div class="col-md-1">Tile 4</div>
+      <div class="col-md-2 grid-cell bg-light-gray d-none d-md-block"></div>
+      <div class="col-md-4 grid-cell p-0">
+        <div id="company" class="text-container">
+          <div class="headline bottom-line text-uppercase">Firma</div>
+          <div class="big-subheadline text-uppercase mb-2">
+            Innowacyjne<br> rozwiązania<br> poparte<br>
+            <strong>150-letnim doświadczeniem</strong>
+          </div>
+        </div>
+        <div class="right-overlay-square d-none d-md-block" style="background-color: rgb(0, 53, 93);"></div>
+      </div>
+      <div class="col-md-4 grid-cell p-0 d-flex position-relative">
+        <video autoplay loop muted>
+          <source src="videos/daher_promo.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="col-md-2 grid-cell bg-light-gray d-none d-md-block"></div>
     </div>
     <div class="row">
-      <div class="col-md-1">Tile 1</div>
-      <div class="col-md-5">Tile 2</div>
-      <div class="col-md-5">Tile 3</div>
-      <div class="col-md-1">Tile 4</div>
+      <div class="col-md-2 grid-cell bg-light d-none d-md-block"></div>
+      <div class="col-md-4 grid-cell background-image p-0" style="background-image: url('images/daher_plane2.jpg');">
+        <div class="text-container text-background">
+          <div class="headline bottom-line text-uppercase">Daher Projects dostarcza na kontynent ameryki północnej</div>
+          <div class="subheadline">
+            Ostatnie projekty DAHER PROJECTS Sp. z o.o. miały miejsce nie tylko na terenie Polski czy Europy, ale również realizowaliśmy dostawy do USA i Kanady.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 grid-cell p-0">
+        <div class="text-container" style="background-color: rgb(227, 0, 49);">
+          <div class="headline bottom-line text-uppercase">Aktualności</div>
+          <div class="subheadline">
+            Wyspecjalizowaliśmy się w realizacji najbardziej skomplikowanych zleceń, które robią naprawdę duże wrażenie! Jednak oprócz naszych usług, pragniemy również podzielić się innymi wydarzeniami ze świata DAHER.
+          </div>
+          <div class="left-overlay-square d-none d-md-block" style="background-color: rgb(227, 0, 49);"></div>
+        </div>
+      </div>
+      <div class="col-md-2 grid-cell bg-light d-none d-md-block"></div>
+    </div>
+    <!-- <div class="row">
+      <div class="col-md-12 grid-cell background-image" style="background-image: url('images/daher_factory.jpg');">
+        <div class="overlay"></div>
+      </div>
+    </div> -->
+    <div class="row">
+      <div class="col-md-12 grid-cell background-image p-0" style="background-image: url('images/daher_factory.jpg');">
+        <div id="transport" class="text-container text-background">
+          <div class="headline text-uppercase">Zakres usług</div>
+          <div class="bottom-line text-uppercase pb-3">
+            <div class="transport-wrapper">
+              <div class="d-inline-block transport-border pr-2">Transport drogowy</div>
+              <div class="d-inline-block transport-border pl-2 pr-2 mr-2">Transport kolejowy</div>
+              <div class="d-md-inline-block">Transport wodny - śródlądowy, morski i oceaniczny</div>
+            </div>
+            <div class="transport-wrapper">
+              <div class="d-inline-block transport-border pr-2">Transport specjalistyczny</div>
+              <div class="d-inline-block transport-border pl-2 pr-2 mr-2">Łańcuchy logistyczne</div>
+              <div class="d-md-inline-block">Załadunek/przeładunek</div>
+            </div>
+            <div class="transport-wrapper">
+              <div class="d-inline-block transport-border pr-2">Nadzór nad transportem</div>
+              <div class="d-inline-block transport-border pr-2 mr-2">Projektowanie, eksperymenty, realizacja</div>
+              <div class="d-md-inline-block">Wsparcie</div>
+            </div>
+          </div>
+          <div class="big-subheadline text-uppercase">Kompleksowe usługi transportowe projektów cargo i nie tylko</div>
+        </div>
+      </div>
     </div>
     <div class="row">
-      <div class="col-md-12">Tile 1</div>
+      <div class="col-md-2 background-image p-0" style="background-image: url('images/highway.jpg');">Tile 1</div>
+      <div class="col-md-4 grid-cell background-image p-0" style="background-image: url('images/daher_budowa.jpg');"></div>
+      <div class="col-md-6 grid-cell background-image p-0" style="background-image: url('images/daher_plane3.jpg');">
+        <div class="row" style="margin: 0 !important;">
+          <div class="col-md-8 grid-cell p-0">
+            <div class="text-container blue-text-background">
+              <div class="headline bottom-line text-uppercase">Realizacje</div>
+              <div class="big-subheadline text-uppercase mb-2">
+                Gwarancja<br> fachowej<br> realizacji<br> najbardziej<br> wymagających<br> zleceń
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="row">
-      <div class="col-md-1">Tile 1</div>
-      <div class="col-md-5">Tile 2</div>
-      <div class="col-md-5">Tile 3</div>
-      <div class="col-md-1">Tile 4</div>
+      <div class="col-md-2 grid-cell d-none d-md-block"></div>`
+      <div class="col-md-4 grid-cell p-0">
+        <div class="text-container" style="background-color: rgb(227, 0, 49);">
+          <div class="headline text-uppercase">Flota</div>
+          <div class="transport-wrapper bottom-line text-uppercase pb-3 mb-3">
+            <div class="d-inline-block transport-border pr-2">Pojazdy szynowe</div>
+            <div class="d-inline-block transport-border pl-2 pr-2 mr-2">Pojazdy drogowe</div>
+            <div class="d-md-inline-block">Konwój transportu</div>
+          </div>
+          <div class="big-subheadline text-uppercase mb-2">
+            Nowoczesna<br>
+            i wyspecjalizowana flota pojazdów
+          </div>
+          <div class="right-top-overlay-square d-none d-md-block" style="background-color: rgb(227, 0, 49);"></div>
+        </div>
+      </div>
+      <div class="col-md-4 grid-cell background-image p-0" style="background-image: url('images/daher_plane4.jpg');"></div>
+      <div class="col-md-2 grid-cell d-none d-md-block"></div>
     </div>
     <div class="row">
-      <div class="col-md-1">Tile 1</div>
-      <div class="col-md-5">Tile 2</div>
-      <div class="col-md-5">Tile 3</div>
-      <div class="col-md-1">Tile 4</div>
-    </div>
-    <div class="row">
-      <div class="col-md-1">Tile 1</div>
-      <div class="col-md-5">Tile 2</div>
-      <div class="col-md-5">Tile 3</div>
-      <div class="col-md-1">Tile 4</div>
+      <div class="col-md-2 grid-cell bg-light-gray d-none d-md-block"></div>
+      <div class="col-md-4 grid-cell bg-gray">
+        <div class="text-container">
+          <div class="big-subheadline text-uppercase mb-2">
+            Serdecznie<br>
+            zapraszamy<br>
+            wszystkich<br>
+            zainteresowanych<br>
+            naszą ofertą.
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 grid-cell bg-dark-gray">
+        <div class="text-container">
+          <div class="headline bottom-line text-uppercase">Kontakt</div>
+          <div class="subheadline">
+            DAHER Projects to nie tylko najwyższej jakości usługi przewozowe ładunków o dużych gabarytach i masach, ale również profesjonalna obsługa poparta 150-letnim doświadczeniem. Potrafimy zrealizować każde, nawet najtrudniejsze przedsięwzięcie transportowe. Nasi inżynierowie są do Państwa dyspozycji i zawsze chętnie służą pomocą oraz fachową poradą.
+          </div>
+          <div class="left-top-overlay-square bg-dark-gray d-none d-md-block"></div>
+        </div>
+      </div>
+      <div class="col-md-2 grid-cell bg-light-gray d-none d-md-block"></div>
     </div>
   </div>
 
   <!-- Footer -->
-  <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-      <span class="text-muted">Place footer content here.</span>
+  <footer class="footer pt-4 pb-4 mt-auto">
+    <div class="container d-flex justify-content-center align-items-center">
+      <div class="mr-4"><img src="images/daher-logo-dark.jpg" width="150" height="59" alt="daher-logo-dark"></div>
+      <div>
+        Polityka prywatności / RODO<br>
+        Impressum
+      </div>
     </div>
   </footer>
 
